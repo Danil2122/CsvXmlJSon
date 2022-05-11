@@ -151,17 +151,4 @@ public class Main {
         }
     }
 }
-//    public static void createCSV(){
-//        List<String[]> colomnString = new ArrayList<>();
-//        String[] columnString1 = "1,John,Smith,USA,25".split(",");
-//        String[] columnString2 = "2,Ivan,Petrov,RU,23".split(",");
-//        colomnString.add(columnString1);
-//        colomnString.add(columnString2);
-//
-//        try (CSVWriter writer = new CSVWriter(new FileWriter("data.csv",true))){
-//            writer.writeAll(colomnString);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
 
